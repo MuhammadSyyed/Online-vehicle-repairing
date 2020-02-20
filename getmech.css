@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url(receipt.jpg);
+    background-size: cover;
+    background-position: absolute;
+    font-family: sans-serif;
+}
+
+.loginbox p{
+    font-weight: bold;
+}
+ input{
+    width: 10%;
+    margin-bottom: 20px;
+}
+
+
+ input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    margin-left: 600px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+} input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: blanchedalmond;
+    
+} a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+} a:hover
+{
+    color: #ffc107;transition: all 0.15s ease-in ;
+}

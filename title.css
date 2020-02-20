@@ -1,0 +1,121 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: monospace;
+}
+.row
+{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.main-nav
+{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li.active a
+{
+    border: 1px solid white;
+    
+}
+
+.main-nav li a:hover
+{
+    border: 1px solid white;
+}
+
+
+.main-nav li a
+{
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.hero
+{
+    position: absolute;
+    width: 600px;
+    margin-left: 100px;
+    margin-top: 100px;
+    
+}
+
+
+h1
+{
+    color: skyblue;
+    text-transform: uppercase;
+    font-size: 70px;
+    text-align: enter;
+    margin-top: 260px;
+    
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.9)),url(title.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.button
+{
+    margin-top: 1000px;
+    margin-left: 5000px;
+}
+
+.btn
+{
+   
+    padding: 10px 80px;
+    color: white;
+    text-decoration: none;
+    margin-right: 5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.btn-one
+{	margin-top : 400px;
+	margin-left: 80px;
+    	font-family: "Roboto", sans-serif;
+}
+
+.btn-two
+
+{		
+	background-color:#ff2525;
+	border-radius: 20px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+.btn-two:hover
+{	position: center;
+    background-color: darkorange;
+    transition: all 0.15s ease-in;
+    
+        
+}
+
+
+
+a
+
+
+
+
+
